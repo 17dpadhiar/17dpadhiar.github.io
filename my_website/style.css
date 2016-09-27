@@ -1,0 +1,16 @@
+body{
+     background-color:#f0491f;
+     font-family: "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+}
+th{
+     text-align:center;
+     border-style:solid;
+     border-color:#000000;
+     border-width:1.5px;
+     background-color: #b3d6f9;
+}
+td{
+     text-align:left;
+     border: solid #000000 1.5px;
+     background-color: #b3d6f9;
+}
