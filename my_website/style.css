@@ -1,3 +1,4 @@
+
 body{
      background-color:#f0491f;
      font-family: "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
@@ -12,5 +13,24 @@ th{
 td{
      text-align:left;
      border: solid #000000 1.5px;
-     background-color: #b3d6f9;
+     background-color: #b3d6f9
 }
+ul.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+ul.navbar li {float: left;}
+ul.navbar li a {
+    display: inline-block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 20px;
+}
+ul.navbar li a:hover {background-color: #555;}
+ul.navbar li.icon {display: none;}
