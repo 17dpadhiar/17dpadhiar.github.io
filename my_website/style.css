@@ -15,22 +15,29 @@ td{
      border: solid #000000 1.5px;
      background-color: #b3d6f9
 }
+h1{
+    text-align: center;
+    font-size: 120px;
+}
 ul.navbar {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: #333;
+    top: 0;
+    width: 100%;
+    position: fixed;
 }
 ul.navbar li {float: left;}
 ul.navbar li a {
     display: inline-block;
     color: #f2f2f2;
     text-align: center;
-    padding: 14px 16px;
+    padding: 10px 15px;
     text-decoration: none;
     transition: 0.3s;
-    font-size: 20px;
+    font-size: 16px;
 }
 ul.navbar li a:hover {background-color: #555;}
 ul.navbar li.icon {display: none;}
